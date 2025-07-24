@@ -1,0 +1,18 @@
+{
+    "name": "jack/hello",
+    "description": "A PHP tool for bulk uploading user data from Excel using PhpSpreadsheet.",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jack\\Hello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jalendra kumar"
+        }
+    ]
+}
